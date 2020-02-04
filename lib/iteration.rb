@@ -1,6 +1,10 @@
 def join_ingredients(src)
-  array_1 = [['pepperoni', 'sausage'], ['green olives', 'green peppers'], ['onions', 'pineapple']]
-  
+  row = 0
+  array = []
+  while row < src.length do
+    array.push("I love #{src[row][0]} and #{src[row][1]} on my pizza")
+    row += 1
+  end
 end
 
 def find_greater_pair(src)
